@@ -1,5 +1,5 @@
  
-I'm a third-year Master student from [School of CS](https://cs.njust.edu.cn/), [Peking University](https://www.njust.edu.cn/). My research interest includes multimodal learning, reforcement learning and robotics.
+I'm a third-year Master student from School of Computer Science and Engineering, Central South University. My research interest includes multimodal learning, reforcement learning and robotics.
  
 I am very fortunate to be advised by [Prof. XXX](https://www.XXX.com/) of XXX Lab from [School of Computer Science](https://cs.pku.edu.cn/), Peking University. I was advised by [Prof. XX](https://XXX.pku.edu.cn/) from [School of Computer Science](https://cs.pku.edu.cn/), Peking University.
  
