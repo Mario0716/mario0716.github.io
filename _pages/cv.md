@@ -14,7 +14,7 @@ Education
 * M.S. in School of CSE, Central South University, 2024(expected)
 * B.S. in School of CSE, Central South University, 2021
 
-Research experience
+Research Experience
 ======
 * Nov.2022 - May.2023: Remote Visitor
   * The University of Sydney
