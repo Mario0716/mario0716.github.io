@@ -1,7 +1,7 @@
  
 I'm a third-year Master student from School of Computer Science and Engineering, Central South University. My research interest includes multimodal learning, reforcement learning and robotics.
  
-I am advised by [Prof. Shichao Zhang](http://zhangdmlab.com/zsc/) of Multimedia Lab from [School of Computer Science and Engineering], Central South University.
+I am advised by [Prof. Shichao Zhang](http://zhangdmlab.com/zsc/) of Multimedia Lab from School of Computer Science and Engineering, Central South University.
  
 You can find my CV here: [Jiayu's Curriculum Vitae](../_pages/CV_SJY.pdf).
  
