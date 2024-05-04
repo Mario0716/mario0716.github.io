@@ -30,7 +30,7 @@ Research experience
   * Research Topics: Multimodal Learning, Cross-Modal Retrieval
   * Supervisor: [Prof.Shichao Zhang](http://zhangdmlab.com/zsc/) and [Prof.Chengyuan Zhang](http://csee.hnu.edu.cn/people/zhangchengyuan)
   
-Skills
+Technical Skills
 ======
 * Programming Languages: Python, C/C++, Java, LaTex, MATLAB, Linux
 * Libraries and Tools: PyTorch, Tensorflow, Numpy, OpenCV
