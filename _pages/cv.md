@@ -19,7 +19,7 @@ Research experience
 * Nov.2022 - May.2023: Remote Visitor
   * The University of Sydney
   * Research Topics: Video Moment Retrieval, Multimodal Learning
-  * Supervisor: [Prof.Chang Xu]
+  * Supervisor: [Prof.Chang Xu](http://changxu.xyz)
 
 * Summer 2020: Big Data Intern
   * XiaoXiang Institute of Big Data
