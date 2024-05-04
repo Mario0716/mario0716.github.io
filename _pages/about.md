@@ -5,4 +5,4 @@ I am advised by [Prof. Shichao Zhang](http://zhangdmlab.com/zsc/) of Multimedia 
  
 You can find my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
  
-[Email](mailto:XX@NJUST.edu.cn) / [Github](https://github.com/Lingxianwen) / [Wechat](../images/wechat.jpg) / [CSDN](https://lingxw.blog.csdn.net/)
+[Email](mailto:jiayusong@csu.edu.cn) / [Github](https://github.com/Mario0716) / [Linkedin](www.linkedin.com/in/jiayusong1999) / [Google Scholar](https://scholar.google.com.hk/citations?user=4qXmEAQAAAAJ&hl=zh-CN)
