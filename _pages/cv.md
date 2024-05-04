@@ -14,22 +14,21 @@ Education
 * M.S. in School of CSE, Central South University, 2024(expected)
 * B.S. in School of CSE, Central South University, 2021
 
-Work experience
+Research experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Nov.2022 - May.2023: Remote Visitor
+  * The University of Sydney
+  * Research Topics: Video Moment Retrieval, Multimodal Learning
+  * Supervisor: [Prof.Chang Xu]
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2020: Big Data Intern
+  * XiaoXiang Institute of Big Data
+  * Research Topics: Epidemic Data Visualization, Representation Learning
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Jun.2019 - May.2020: Research Assistant
+  * Central South University
+  * Research Topics: Multimodal Learning, Cross-Modal Retrieval
+  * Supervisor: [Prof.Shichao Zhang](http://zhangdmlab.com/zsc/) and [Prof.Chengyuan Zhang](http://csee.hnu.edu.cn/people/zhangchengyuan)
   
 Skills
 ======
