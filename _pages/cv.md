@@ -32,12 +32,9 @@ Research experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages: Python, C/C++, Java, LaTex, MATLAB, Linux
+* Libraries and Tools: PyTorch, Tensorflow, Numpy, OpenCV
+* ML Architectures: Mamba, CNN, LSTM, ResNet, Diffusion Model, Transformer
 
 Publications
 ======
@@ -49,12 +46,6 @@ Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Service and leadership
