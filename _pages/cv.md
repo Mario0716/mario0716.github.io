@@ -48,6 +48,6 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Service and leadership
+Service
 ======
 * Reviewer(MTAP'2019)
