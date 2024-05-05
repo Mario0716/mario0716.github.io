@@ -1,12 +1,12 @@
 ---
-title: "Paper Title Number 2"
+title: "Multi-graph based hierarchical semantic fusion for cross-modal representation"
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
+excerpt: 'Cross-Modal Retrieval; Multimodal Learning; Representation Learning'
 date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+venue: '2021 IEEE International Conference on Multimedia and Expo (ICME)'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/9428194'
+citation: 'Lei Zhu, Chengyuan Zhang, Jiayu Song, Liangchen Liu, Shichao Zhang, Yangding Li, Multi-graph based hierarchical semantic fusion for cross-modal representation, 2021 IEEE International Conference on Multimedia and Expo (ICME), 2021: 1-6 '
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+The main challenge of cross-modal retrieval is how to efficiently realize semantic alignment and reduce the heterogeneity gap. However, existing approaches ignore the multi-grained semantic knowledge learning from different modalities. To this end, this paper proposes a novel end-to-end cross-modal representation method, termed as Multi-Graph based Hierarchical Semantic Fusion (MG-HSF). This method is an integration of multi-graph hierarchical semantic fusion with cross-modal adversarial learning, which captures fine-grained and coarse-grained semantic knowledge from cross-modal samples, and generate modalities-invariant representations in a common subspace. To evaluate the performance, extensive experiments are conducted on three benchmarks. The experimental results show that our method is superior than the state-of-the-arts.
