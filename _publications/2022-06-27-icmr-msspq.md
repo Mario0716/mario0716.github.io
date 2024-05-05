@@ -1,7 +1,7 @@
 ---
 title: "MSSPQ: Multiple Semantic Structure-Preserving Quantization for Cross-Modal Retrieval"
 collection: publications
-permalink: /publication/2015-10-01-paper-title-number-3
+permalink: /publication/2022-06-27-icmr-msspq
 excerpt: 'Cross-Modal Retrieval; Multimodal Learning; Representation Learning'
 date: 2022-June-27
 venue: 'Proceedings of the 2022 International Conference on Multimedia Retrieval(ICMR 22)'
