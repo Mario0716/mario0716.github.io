@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2022-06-27-icmr-msspq
 excerpt: 'Cross-Modal Retrieval; Multimodal Learning; Representation Learning'
 date: 2022-June-27
-venue: 'Proceedings of the 2022 International Conference on Multimedia Retrieval(ICMR 22)'
+venue: 'Proceedings of the 2022 International Conference on Multimedia Retrieval (ICMR)'
 paperurl: 'https://dl.acm.org/doi/abs/10.1145/3512527.3531417'
 citation: 'Lei Zhu, Liewu Cai, Jiayu Song, Xinghui Zhu, Chengyuan Zhang, Shichao Zhang, MSSPQ: Multiple Semantic Structure-Preserving Quantization for Cross-Modal Retrieval, Proceedings of the 2022 International Conference on Multimedia Retrieval. 2022: 631-638'
 ---
