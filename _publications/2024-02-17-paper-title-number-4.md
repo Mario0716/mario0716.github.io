@@ -2,8 +2,8 @@
 title: "DAPCMH: Deep Adversarial Privacy-Preserving Cross-Modal Hashing"
 collection: publications
 permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
+excerpt: 'Cross-Modal Hashing;'
+date: 2021-March-07
 venue: 'Neural Processing Letters'
 paperurl: 'https://link.springer.com/article/10.1007/s11063-021-10447-4'
 citation: 'Lei Zhu, Jiayu Song, Zhan Yang, Wenti Huang, Chengyuan Zhang, Weiren Yu, DAPCMH: Deep Adversarial Privacy-Preserving Cross-Modal Hashing, Neural Processing Letters, 2022, 54(4): 2549-2569'
