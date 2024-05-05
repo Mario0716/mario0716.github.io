@@ -1,7 +1,7 @@
 ---
 title: "HCMSL: Hybrid cross-modal similarity learning for cross-modal retrieval"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2021-04-06-tomm-hcmsl
 excerpt: 'Cross-Modal Retrieval; Multimodal Learning'
 date: 2021-April-06
 venue: 'ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)'
