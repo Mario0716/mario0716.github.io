@@ -7,3 +7,7 @@ venue: "2021 IEEE International Conference on Multimedia and Expo"
 date: 2021-July-05
 location: "Shenzhen, China"
 ---
+
+<video width="320" height="240" controls>
+  <source src="../files/talks_files/icme-mghsf.mp4" type="video/mp4">
+</video>
