@@ -23,11 +23,11 @@ author:
   # Biographic information
   avatar           : "sjy.jpg"
   name             : "Jiayu Song"
-  pronouns         : "M.S" 
-  bio              : "CSE, Central South University"
+  pronouns         :  #
+  bio              : "3rd Year Master Student in Central South University"
   location         : "Changsha, Hunan"
   employer         : "Central South University"
-  uri              : # URL
+  uri              : "https://cse.csu.edu.cn"
   email            : "jiayusong@csu.edu.cn" 
 
   # Academic websites
