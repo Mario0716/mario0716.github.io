@@ -7,3 +7,5 @@ venue: "Proceedings of the 2022 International Conference on Multimedia Retrieval
 date: 2022-June-27
 location: "New York, NJ, USA"
 ---
+
+<video src="../files/talks_files/ICMR2022_MSSPQ.mp4"></video>
