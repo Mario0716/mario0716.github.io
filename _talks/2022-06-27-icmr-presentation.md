@@ -8,6 +8,6 @@ date: 2022-June-27
 location: "New York, NJ, USA"
 ---
 
-<video width="50" height="60" controls>
+<video width="320" height="240" controls>
   <source src="../files/talks_files/ICMR2022_MSSPQ.mp4" type="video/mp4">
 </video>
