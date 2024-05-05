@@ -1,12 +1,12 @@
 ---
-title: "Paper Title Number 3"
+title: "MSSPQ: Multiple Semantic Structure-Preserving Quantization for Cross-Modal Retrieval, Proceedings of the 2022 International Conference on Multimedia Retrieval"
 collection: publications
 permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
+excerpt: 'Cross-Modal Retrieval; Multimodal Learning; Representation Learning'
+date: 2022-June-27
+venue: 'Proceedings of the 2022 International Conference on Multimedia Retrieval(ICMR'22)'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+citation: 'Lei Zhu, Liewu Cai, Jiayu Song, Xinghui Zhu, Chengyuan Zhang, Shichao Zhang, MSSPQ: Multiple Semantic Structure-Preserving Quantization for Cross-Modal Retrieval, Proceedings of the 2022 International Conference on Multimedia Retrieval. 2022: 631-638'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Cross-modal hashing is a hot issue in the multimedia community, which is to generate compact hash code from multimedia content for efficient cross-modal search. Two challenges, i.e., (1) How to efficiently enhance cross-modal semantic mining is essential for cross-modal hash code learning, and (2) How to combine multiple semantic correlations learning to improve the semantic similarity preserving, cannot be ignored. To this end, this paper proposed a novel end-to-end cross-modal hashing approach, named Multiple Semantic Structure-Preserving Quantization (MSSPQ) that is to integrate deep hashing model with multiple semantic correlation learning to boost hash learning performance. The multiple semantic correlation learning consists of inter-modal and intra-modal pairwise correlation learning and Cosine correlation learning, which can comprehensively capture cross-modal consistent semantics and realize semantic similarity preserving. Extensive experiments are conducted on three multimedia datasets, which confirms that the proposed method outperforms the baselines.
