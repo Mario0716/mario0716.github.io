@@ -2,7 +2,7 @@
 title: "DAPCMH: Deep Adversarial Privacy-Preserving Cross-Modal Hashing"
 collection: publications
 permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'Cross-Modal Hashing;'
+excerpt: 'Cross-Modal Hashing; Multimodal Learning'
 date: 2021-March-07
 venue: 'Neural Processing Letters'
 paperurl: 'https://link.springer.com/article/10.1007/s11063-021-10447-4'
