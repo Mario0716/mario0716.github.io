@@ -1,7 +1,7 @@
 ---
 title: "Multi-graph based hierarchical semantic fusion for cross-modal representation"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
+permalink: /publication/2021-07-05-icme-mghsf
 excerpt: 'Cross-Modal Retrieval; Multimodal Learning; Representation Learning'
 date: 2021-July-05
 venue: '2021 IEEE International Conference on Multimedia and Expo (ICME)'
