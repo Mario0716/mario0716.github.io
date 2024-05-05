@@ -3,7 +3,7 @@ title: "Multi-graph based hierarchical semantic fusion for cross-modal represent
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
 excerpt: 'Cross-Modal Retrieval; Multimodal Learning; Representation Learning'
-date: 2010-10-01
+date: 2021-July-05
 venue: '2021 IEEE International Conference on Multimedia and Expo (ICME)'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/9428194'
 citation: 'Lei Zhu, Chengyuan Zhang, Jiayu Song, Liangchen Liu, Shichao Zhang, Yangding Li, Multi-graph based hierarchical semantic fusion for cross-modal representation, 2021 IEEE International Conference on Multimedia and Expo (ICME), 2021: 1-6 '
