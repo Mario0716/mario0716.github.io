@@ -31,7 +31,7 @@ Research Experience
   * Research Topics: Epidemic Data Visualization, Representation Learning
 
 * Jun.2019 - May.2020: Research Assistant
-  * Central South University, CSE [Multimedia Lab](http://zhangdmlab.com/zsc/)
+  * Central South University, [Multimedia Lab](http://zhangdmlab.com/zsc/)
   * Research Topics: Multimodal Learning, Cross-Modal Retrieval
   * Supervisor: [Prof.Shichao Zhang](http://zhangdmlab.com/zsc/) and [Prof.Chengyuan Zhang](http://csee.hnu.edu.cn/people/zhangchengyuan)
   
