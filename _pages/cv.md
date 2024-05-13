@@ -17,12 +17,12 @@ Education
 Research Experience
 ======
 * May.2024 - Present: Visiting Student
-  * Rensselaer Polytechnic Institute
+  * Rensselaer Polytechnic Institute, [DAMI Lab](https://dami-lab.github.io)
   * Research Topics: Multimodal Learning, LLMs, Healthcare
   * Supervisor: [Prof.Yao Ma](https://yaoma24.github.io)
 
 * Nov.2022 - May.2023: Remote Visitor
-  * The University of Sydney
+  * The University of Sydney, [School of Computer Science](https://www.sydney.edu.au/engineering/schools/school-of-computer-science.html)
   * Research Topics: Video Moment Retrieval, Multimodal Learning
   * Supervisor: [Prof.Chang Xu](http://changxu.xyz)
 
@@ -31,7 +31,7 @@ Research Experience
   * Research Topics: Epidemic Data Visualization, Representation Learning
 
 * Jun.2019 - May.2020: Research Assistant
-  * Central South University
+  * Central South University, CSE [Multimedia Lab](http://zhangdmlab.com/zsc/)
   * Research Topics: Multimodal Learning, Cross-Modal Retrieval
   * Supervisor: [Prof.Shichao Zhang](http://zhangdmlab.com/zsc/) and [Prof.Chengyuan Zhang](http://csee.hnu.edu.cn/people/zhangchengyuan)
   
