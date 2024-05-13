@@ -19,7 +19,7 @@ Research Experience
 * May.2024 - Present: Visiting Student
   * Rensselaer Polytechnic Institute
   * Research Topics: Multimodal Learning, LLMs, Healthcare
-  * Supervisor:[Prof.Yao Ma](https://yaoma24.github.io)
+  * Supervisor: [Prof.Yao Ma](https://yaoma24.github.io)
 
 * Nov.2022 - May.2023: Remote Visitor
   * The University of Sydney
