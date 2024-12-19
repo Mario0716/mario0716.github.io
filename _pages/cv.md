@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* M.S. in School of CSE, Central South University, 2024(expected)
+* M.S. in School of CSE, Central South University, 2024
 * B.S. in School of CSE, Central South University, 2021
 
 Research Experience
