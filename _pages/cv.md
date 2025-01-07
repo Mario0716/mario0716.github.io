@@ -16,11 +16,6 @@ Education
 
 Research Experience
 ======
-* May.2024 - Present: Visiting Student
-  * Rensselaer Polytechnic Institute, [DAMI Lab](https://dami-lab.github.io)
-  * Research Topics: Multimodal Learning, LLMs, Healthcare
-  * Supervisor: [Prof.Yao Ma](https://yaoma24.github.io)
-
 * Nov.2022 - May.2023: Remote Visitor
   * The University of Sydney, [School of Computer Science](https://www.sydney.edu.au/engineering/schools/school-of-computer-science.html)
   * Research Topics: Video Moment Retrieval, Multimodal Learning
