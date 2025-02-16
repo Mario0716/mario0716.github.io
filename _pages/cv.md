@@ -17,7 +17,7 @@ Education
 Research Experience
 ======
 * Feb.2025 - Present: Research Assistant
-  * Eastern Institute For Advanced Study, [Robot Learning and Control Lab](https://www.eitech.edu.cn)
+  * Eastern Institute For Advanced Study, [Robot Learning and Control Lab](https://www.eitech.edu.cn/?discipline_category=information)
   * Research Topics: Robotics, Reinforcement Learning, Multimodal Learning
   * Supervisor: [Prof.Xiaocong Lee](https://www.xiaocongli.top)
 
