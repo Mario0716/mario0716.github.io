@@ -16,6 +16,11 @@ Education
 
 Research Experience
 ======
+* Feb.2025 - Present: Research Assistant
+  * Eastern Institute For Advanced Study, [Robot Learning and Control Lab](https://www.eitech.edu.cn)
+  * Research Topics: Robotics, Reinforcement Learning, Multimodal Learning
+  * Supervisor: [Prof.Xiaocong Lee](https://www.xiaocongli.top)
+
 * Nov.2022 - May.2023: Remote Visitor
   * The University of Sydney, [School of Computer Science](https://www.sydney.edu.au/engineering/schools/school-of-computer-science.html)
   * Research Topics: Video Moment Retrieval, Multimodal Learning
