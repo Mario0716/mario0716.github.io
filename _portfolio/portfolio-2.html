@@ -6,11 +6,63 @@ collection: portfolio
 
 <div style="display: flex; justify-content: space-around;">
   <div style="text-align: center;">
-    <img src="path/to/your/photo1.jpg" alt="摄影作品1" width="300" />
+    <a href="#image1" data-toggle="modal">
+      <img src="path/to/your/photo1.jpg" alt="摄影作品1" width="300" />
+    </a>
     <p>摄影作品1</p>
   </div>
   <div style="text-align: center;">
-    <img src="path/to/your/photo2.jpg" alt="摄影作品2" width="300" />
+    <a href="#image2" data-toggle="modal">
+      <img src="path/to/your/photo2.jpg" alt="摄影作品2" width="300" />
+    </a>
     <p>摄影作品2</p>
   </div>
 </div>
+
+<!-- Modal 1 -->
+<div id="image1" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('image1')">&times;</span>
+    <img src="path/to/your/photo1.jpg" alt="摄影作品1" style="width: 100%;" />
+    <p>这里是摄影作品1的详细介绍。</p>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div id="image2" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('image2')">&times;</span>
+    <img src="path/to/your/photo2.jpg" alt="摄影作品2" style="width: 100%;" />
+    <p>这里是摄影作品2的详细介绍。</p>
+  </div>
+</div>
+
+<script>
+  function closeModal(id) {
+    document.getElementById(id).style.display = 'none';
+  }
+
+  // 获取所有的模态框
+  var modals = document.querySelectorAll('.modal');
+
+  // 获取所有的图片链接
+  var links = document.querySelectorAll('a[data-toggle="modal"]');
+
+  // 为每个链接添加点击事件
+  links.forEach(function(link) {
+    link.addEventListener('click', function(event) {
+      event.preventDefault();
+      var target = document.querySelector(link.getAttribute('href'));
+      target.style.display = 'block';
+    });
+  });
+
+  // 为每个模态框添加点击事件，点击模态框外部区域时关闭模态框
+  modals.forEach(function(modal) {
+    modal.addEventListener('click', function(event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+      }
+    });
+  });
+</script>
