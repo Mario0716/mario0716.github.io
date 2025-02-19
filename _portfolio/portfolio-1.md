@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/photo/csu_changsha.HEIC'>"
+title: "Photography"
+excerpt: "To record some moments forever<br/>"
 collection: portfolio
 ---
 
