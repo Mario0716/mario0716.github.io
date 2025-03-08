@@ -9,7 +9,7 @@ redirect_from:
 
 # Hi~ Welcome👋
 
-I am currently a research assistant of Robot Learning and Control Lab at Eastern Institute for Advanced Study, advised by [Prof.Xiaocong Lee](https://www.xiaocongli.top) *(Associate, Harvard & Assiant Professor, National University of Signpore)*. Previously, I obtained my B.S. and M.S degree from School of Computer Science and Engineering, Central South University, advised by [Prof. Shichao Zhang](http://zhangdmlab.com/zsc/) in Multimedia Lab. My research interests include multimodal learning, reinforcement learning and robotics.
+I am currently a research assistant of Robot Learning and Control Lab at Eastern Institute for Advanced Study, advised by [Prof.Xiaocong Lee](https://www.xiaocongli.top) *(Associate, Harvard & Adjunct Assiant Professor, National University of Singapore)*. Previously, I obtained my B.S. and M.S degree from School of Computer Science and Engineering, Central South University, advised by [Prof. Shichao Zhang](http://zhangdmlab.com/zsc/) in Multimedia Lab. My research interests include multimodal learning, reinforcement learning and robotics.
  
 You can find my CV here: [Jiayu's Curriculum Vitae](../_pages/CV_SJY.pdf).
  
