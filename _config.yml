@@ -144,9 +144,20 @@ analytics:
 # Reading Files
 include:
   - .htaccess
-  - _pages
-  - files
 exclude:
+  # The published website contains only index.md and its homepage assets.
+  - _pages
+  - _posts
+  - _publications
+  - _talks
+  - _portfolio
+  - _teaching
+  - files
+  - talkmap
+  - markdown_generator
+  - talkmap.ipynb
+  - talkmap.py
+  - CONTRIBUTING.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -200,16 +211,16 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
