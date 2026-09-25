@@ -11,12 +11,13 @@ redirect_from:
 
 Education
 ======
+* Ph.D. student, The University of Texas at Dallas (current), advised by [Prof. Feng Chen](https://personal.utdallas.edu/~fxc190007/)
 * M.S. in School of CSE, Central South University, 2024
 * B.S. in School of CSE, Central South University, 2021
 
 Research Experience
 ======
-* Feb.2025 - Present: Research Assistant
+* Feb.2025 - Feb.2026: Research Assistant
   * Eastern Institute For Advanced Study, [Robot Learning and Control Lab](https://www.eitech.edu.cn/?discipline_category=information)
   * Research Topics: Robotics, Reinforcement Learning, Multimodal Learning
   * Supervisor: [Prof.Xiaocong Lee](https://www.xiaocongli.top)
