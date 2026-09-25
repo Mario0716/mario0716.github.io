@@ -35,7 +35,11 @@
     .hero-inner { display: grid; grid-template-columns: minmax(0, 1fr) 270px; align-items: center; gap: 5rem; padding-block: 4.5rem 4rem; }
     .eyebrow { margin: 0 0 1.3rem; color: var(--blue); font-size: .8rem; font-weight: 650; letter-spacing: .15em; text-transform: uppercase; }
     h1 { margin: 0 0 1.3rem; font: 500 clamp(3.2rem, 6.5vw, 5.2rem)/1.05 Georgia, "Times New Roman", serif; letter-spacing: -.055em; }
-    .role { margin: 0 0 1.5rem; font-size: 1.25rem; font-weight: 500; }
+    .role { display: flex; align-items: center; gap: .75rem; margin: 0 0 1.5rem; font-size: 1.25rem; font-weight: 500; }
+    .school-mark { display: block; width: 2.5rem; height: 2.5rem; object-fit: contain; flex: none; color-scheme: light; }
+    .inline-school-mark { display: inline-block; width: 1.625rem; height: 1.625rem; object-fit: contain; vertical-align: -.35rem; margin-inline: .15rem; }
+    .institution { display: flex; align-items: flex-start; gap: .85rem; }
+    .institution > div { min-width: 0; }
     .intro { max-width: 36rem; color: var(--muted); font-size: 1.12rem; line-height: 1.8; margin: 0; }
     .intro strong { font-weight: 550; color: var(--ink); }
     .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1.25rem; margin-top: 2rem; }
@@ -64,6 +68,21 @@
     .timeline li:last-child { padding-bottom: 0; }
     .timeline time, .timeline .period { font-size: .85rem; color: var(--muted); padding-top: .15rem; }
     .timeline p { color: var(--muted); margin: .2rem 0 0; font-size: .93rem; }
+    .section-note { margin: 0 0 1.8rem; color: var(--muted); font-size: .93rem; }
+    .publication-list { list-style: none; padding: 0; margin: 0; }
+    .publication { display: grid; grid-template-columns: 230px minmax(0, 1fr); align-items: center; gap: 1.6rem; padding-block: 1.8rem; border-top: 1px solid var(--line); }
+    .paper-figure { display: flex; align-items: center; justify-content: center; padding: .5rem; background: #fff; border: 1px solid var(--line); border-radius: 5px; aspect-ratio: 3 / 2; }
+    .paper-figure:hover { border-color: var(--blue); }
+    .paper-figure img { display: block; width: 100%; height: 100%; object-fit: contain; }
+    .paper-details { min-width: 0; }
+    .publication:first-child { padding-top: 0; border-top: 0; }
+    .publication:last-child { padding-bottom: 0; }
+    .paper-meta { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem; margin: 0 0 .65rem; font-size: .8rem; color: var(--muted); }
+    .venue-tag { padding: .12rem .55rem; background: var(--wash); border: 1px solid var(--line); border-radius: 4px; color: #345379; font-weight: 600; }
+    .publication h3 a { color: var(--ink); text-decoration: none; }
+    .publication h3 a:hover { color: var(--blue); text-decoration: underline; }
+    .authors { margin: .5rem 0 0; color: var(--muted); font-size: .88rem; line-height: 1.8; }
+    .authors strong { color: var(--ink); font-weight: 600; }
     footer { border-top: 1px solid var(--line); color: var(--muted); }
     .footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; padding-block: 1.5rem; font-size: .83rem; }
     .footer-inner p { margin: 0; }
@@ -74,6 +93,7 @@
       .content-section { grid-template-columns: 150px minmax(0, 1fr); gap: 2rem; }
       nav { gap: .3rem 1.2rem; }
       .timeline li { grid-template-columns: 105px minmax(0, 1fr); gap: 1rem; }
+      .publication { grid-template-columns: 170px minmax(0, 1fr); gap: 1.2rem; }
     }
     @media (max-width: 620px) {
       .wrap { width: calc(100% - 2.5rem); }
@@ -94,6 +114,8 @@
       .content-section { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; padding-block: 2.6rem; }
       .section-index { display: inline; margin-right: .7rem; }
       .timeline li { grid-template-columns: minmax(0, 1fr); gap: .3rem; }
+      .publication { grid-template-columns: minmax(0, 1fr); gap: 1.1rem; }
+      .paper-figure { width: min(100%, 340px); }
     }
     @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
     @media print { header, .socials, .actions, footer { display: none; } .wrap { width: 100%; } .hero-inner { padding: 0 0 2rem; } .hero { background: white; } .content-section { padding-block: 1.5rem; } a { color: inherit; } }
@@ -106,7 +128,8 @@
       <a class="brand" href="{{ '/' | relative_url }}">Jiayu Song<span>.</span></a>
       <nav aria-label="Main navigation">
         <a href="#about">About</a>
-        <a href="#background">Background</a>
+        <a href="#background">Education</a>
+        <a href="#publications">Publications</a>
         <a href="mailto:jiayusong16@gmail.com">Contact</a>
       </nav>
     </div>
@@ -117,8 +140,8 @@
         <div class="hero-copy">
           <p class="eyebrow">Learning · Perception · Robotics</p>
           <h1 id="name">Jiayu Song</h1>
-          <p class="role">Ph.D. student at UT Dallas</p>
-          <p class="intro">I study <strong>multimodal learning</strong>, <strong>reinforcement learning</strong>, and <strong>robotics</strong>, advised by <a href="https://personal.utdallas.edu/~fxc190007/">Prof. Feng Chen</a>.</p>
+          <p class="role"><img class="school-mark" src="{{ '/images/utd-monogram.svg' | relative_url }}" alt="UT Dallas monogram" width="40" height="40"><span>Ph.D. student at UT Dallas</span></p>
+          <p class="intro">Teaching machines to <strong>connect the dots</strong>—between what they see, what they understand, and what they do. Exploring multimodal learning, reinforcement learning, and robotics along the way.</p>
           <div class="actions">
             <a class="button" href="mailto:jiayusong16@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg>Get in touch</a>
           </div>
@@ -144,13 +167,52 @@
         </div>
       </section>
       <section id="background" class="content-section" aria-labelledby="background-heading">
-        <h2 id="background-heading"><span class="section-index">02 / BACKGROUND</span>Along the way</h2>
+        <h2 id="background-heading"><span class="section-index">02 / EDUCATION</span>Along the way</h2>
         <ol class="timeline">
-          <li><span class="period">Current</span><div><h3>UT Dallas</h3><p>Ph.D. student · Advisor: <a href="https://personal.utdallas.edu/~fxc190007/">Prof. Feng Chen</a></p></div></li>
-          <li><span class="period">2025 — 2026</span><div><h3>Eastern Institute for Advanced Study</h3><p>Research Assistant · Robot Learning and Control Lab</p></div></li>
-          <li><time datetime="2024">2024</time><div><h3>Central South University</h3><p>M.S. · School of Computer Science and Engineering</p></div></li>
-          <li><time datetime="2021">2021</time><div><h3>Central South University</h3><p>B.S. · School of Computer Science and Engineering</p></div></li>
+          <li><span class="period">Current</span><div class="institution"><img class="school-mark" src="{{ '/images/utd-monogram.svg' | relative_url }}" alt="UT Dallas monogram" width="40" height="40" loading="lazy"><div><h3>The University of Texas at Dallas</h3><p>Ph.D. student · Advisor: <a href="https://personal.utdallas.edu/~fxc190007/">Prof. Feng Chen</a></p></div></div></li>
+          <li><time datetime="2024">2024</time><div class="institution"><img class="school-mark" src="{{ '/images/csu.png' | relative_url }}" alt="Central South University emblem" width="40" height="40" loading="lazy"><div><h3>Central South University</h3><p>M.S. · School of Computer Science and Engineering</p></div></div></li>
+          <li><time datetime="2021">2021</time><div class="institution"><img class="school-mark" src="{{ '/images/csu.png' | relative_url }}" alt="Central South University emblem" width="40" height="40" loading="lazy"><div><h3>Central South University</h3><p>B.S. · School of Computer Science and Engineering</p></div></div></li>
         </ol>
+      </section>
+      <section id="publications" class="content-section" aria-labelledby="publications-heading">
+        <h2 id="publications-heading"><span class="section-index">03 / RESEARCH</span>Publications</h2>
+        <div>
+          <p class="section-note">Four selected papers. Find the full list on <a href="https://scholar.google.com.hk/citations?user=4qXmEAQAAAAJ&amp;hl=en">Google Scholar ↗</a>.</p>
+          <ol class="publication-list">
+            <li class="publication">
+              <a class="paper-figure" href="https://arxiv.org/abs/2606.21935" aria-label="Read CoRDE"><img src="{{ site.data.publication_images.corde.src }}" alt="CoRDE framework: concept priors guide routing to LoRA diffusion experts for robot manipulation" width="1200" height="619" loading="lazy" decoding="async"></a>
+              <div class="paper-details">
+                <p class="paper-meta"><span class="venue-tag">IEEE/RSJ IROS</span><time datetime="2026">2026</time><span>Accepted</span></p>
+                <h3><a href="https://arxiv.org/abs/2606.21935">CoRDE: Concept-Prior Routed Diffusion Experts for Structural Generalization in Robot Manipulation</a></h3>
+                <p class="authors">Haidong Huang, Xixin Zhao, Yaohua Zhou, <strong>Jiayu Song</strong>, Jiayi Zhang, Jun Ma, Haiyue Zhu, Xiaocong Li</p>
+              </div>
+            </li>
+            <li class="publication">
+              <a class="paper-figure" href="https://dl.acm.org/doi/abs/10.1145/3512527.3531417" aria-label="Read MSSPQ"><img src="{{ site.data.publication_images.msspq.src }}" alt="MSSPQ framework with image and text embeddings, hashing layers, and multiple correlation losses" width="1200" height="518" loading="lazy" decoding="async"></a>
+              <div class="paper-details">
+              <p class="paper-meta"><span class="venue-tag">ACM ICMR</span><time datetime="2022">2022</time></p>
+              <h3><a href="https://dl.acm.org/doi/abs/10.1145/3512527.3531417">MSSPQ: Multiple Semantic Structure-Preserving Quantization for Cross-Modal Retrieval</a></h3>
+              <p class="authors">Lei Zhu, Liewu Cai, <strong>Jiayu Song</strong>, Xinghui Zhu, Chengyuan Zhang, Shichao Zhang</p>
+              </div>
+            </li>
+            <li class="publication">
+              <a class="paper-figure" href="https://ieeexplore.ieee.org/abstract/document/9428194" aria-label="Read Multi-Graph Based Hierarchical Semantic Fusion"><img src="{{ site.data.publication_images.icme.src }}" alt="MG-HSF framework: cross-modal feature embeddings, multi-graph hierarchical semantic fusion, and adversarial learning" width="1200" height="453" loading="lazy" decoding="async"></a>
+              <div class="paper-details">
+              <p class="paper-meta"><span class="venue-tag">IEEE ICME</span><time datetime="2021">2021</time></p>
+              <h3><a href="https://ieeexplore.ieee.org/abstract/document/9428194">Multi-graph Based Hierarchical Semantic Fusion for Cross-modal Representation</a></h3>
+              <p class="authors">Lei Zhu, Chengyuan Zhang, <strong>Jiayu Song</strong>, Liangchen Liu, Shichao Zhang, Yangding Li</p>
+              </div>
+            </li>
+            <li class="publication">
+              <a class="paper-figure" href="https://dl.acm.org/doi/abs/10.1145/3412847" aria-label="Read HCMSL"><img src="{{ site.data.publication_images.hcmsl.src }}" alt="HCMSL framework combining cross-modal representation learning with image and text intra-modal similarity learning" width="850" height="584" loading="lazy" decoding="async"></a>
+              <div class="paper-details">
+              <p class="paper-meta"><span class="venue-tag">ACM TOMM</span><time datetime="2021">2021</time></p>
+              <h3><a href="https://dl.acm.org/doi/abs/10.1145/3412847">HCMSL: Hybrid Cross-Modal Similarity Learning for Cross-Modal Retrieval</a></h3>
+              <p class="authors">Chengyuan Zhang, <strong>Jiayu Song</strong>, Xiaofeng Zhu, Lei Zhu, Shichao Zhang</p>
+              </div>
+            </li>
+          </ol>
+        </div>
       </section>
     </div>
   </main>
