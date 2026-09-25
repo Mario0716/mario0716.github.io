@@ -31,7 +31,6 @@
     nav { display: flex; flex-wrap: wrap; gap: .25rem 1.6rem; align-items: center; }
     nav a { color: var(--muted); text-decoration: none; font-size: .9rem; padding: .5rem 0; }
     nav a:hover { color: var(--blue); }
-    nav a[aria-current] { color: var(--blue); }
     .hero { background: var(--wash); border-bottom: 1px solid var(--line); }
     .hero-inner { display: grid; grid-template-columns: minmax(0, 1fr) 270px; align-items: center; gap: 5rem; padding-block: 4.5rem 4rem; }
     .eyebrow { margin: 0 0 1.3rem; color: var(--blue); font-size: .8rem; font-weight: 650; letter-spacing: .15em; text-transform: uppercase; }
@@ -59,25 +58,12 @@
     .bio strong { color: var(--ink); font-weight: 600; }
     .interests { list-style: none; display: flex; flex-wrap: wrap; padding: 0; margin: 1.6rem 0 0; gap: .5rem; }
     .interests li { padding: .3rem .8rem; font-size: .88rem; border: 1px solid #cfdbec; border-radius: 4px; color: #345379; background: #f8faff; }
-    .section-top { display: flex; gap: 1rem; justify-content: space-between; align-items: center; margin-bottom: .2rem; }
-    .section-top p { color: var(--muted); margin: 0; font-size: .9rem; }
-    .publications { list-style: none; padding: 0; margin: 0; }
-    .publication { padding: 1.4rem 0; border-bottom: 1px solid var(--line); }
-    .publication:last-child { border-bottom: 0; padding-bottom: 0; }
-    .paper-meta { margin: 0 0 .4rem; font-size: .8rem; font-weight: 600; color: var(--blue); }
     h3 { margin: 0; font-size: 1.06rem; font-weight: 600; line-height: 1.6; }
-    h3 a { color: var(--ink); text-decoration: none; }
-    h3 a:hover { color: var(--blue); text-decoration: underline; }
-    .venue { font-size: .9rem; color: var(--muted); margin: .5rem 0 0; }
     .timeline { list-style: none; padding: 0; margin: 0; }
     .timeline li { display: grid; grid-template-columns: 130px minmax(0, 1fr); gap: 1.5rem; padding-bottom: 1.5rem; }
     .timeline li:last-child { padding-bottom: 0; }
     .timeline time, .timeline .period { font-size: .85rem; color: var(--muted); padding-top: .15rem; }
     .timeline p { color: var(--muted); margin: .2rem 0 0; font-size: .93rem; }
-    .bottom-links { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; padding-block: 2.5rem; }
-    .bottom-links a { display: flex; justify-content: space-between; align-items: center; padding-block: .6rem; color: var(--ink); text-decoration: none; font-weight: 550; }
-    .bottom-links a:hover { color: var(--blue); }
-    .bottom-links span { display: block; color: var(--muted); font-size: .9rem; margin-top: .2rem; font-weight: 400; }
     footer { border-top: 1px solid var(--line); color: var(--muted); }
     .footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; padding-block: 1.5rem; font-size: .83rem; }
     .footer-inner p { margin: 0; }
@@ -108,11 +94,9 @@
       .content-section { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; padding-block: 2.6rem; }
       .section-index { display: inline; margin-right: .7rem; }
       .timeline li { grid-template-columns: minmax(0, 1fr); gap: .3rem; }
-      .bottom-links { grid-template-columns: 1fr; gap: 1rem; padding-block: 2rem; }
-      .section-top { align-items: flex-start; flex-wrap: wrap; }
     }
     @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
-    @media print { header, .socials, .actions, .bottom-links, footer { display: none; } .wrap { width: 100%; } .hero-inner { padding: 0 0 2rem; } .hero { background: white; } .content-section { padding-block: 1.5rem; } a { color: inherit; } }
+    @media print { header, .socials, .actions, footer { display: none; } .wrap { width: 100%; } .hero-inner { padding: 0 0 2rem; } .hero { background: white; } .content-section { padding-block: 1.5rem; } a { color: inherit; } }
   </style>
 </head>
 <body id="top">
@@ -121,11 +105,9 @@
     <div class="wrap header-inner">
       <a class="brand" href="{{ '/' | relative_url }}">Jiayu Song<span>.</span></a>
       <nav aria-label="Main navigation">
-        <a href="#about" aria-current="page">About</a>
-        <a href="{{ '/publications/' | relative_url }}">Publications</a>
-        <a href="{{ '/talks/' | relative_url }}">Talks</a>
-        <a href="{{ '/cv/' | relative_url }}">CV</a>
-        <a href="{{ '/portfolio/' | relative_url }}">Photography</a>
+        <a href="#about">About</a>
+        <a href="#background">Background</a>
+        <a href="mailto:jiayusong16@gmail.com">Contact</a>
       </nav>
     </div>
   </header>
@@ -139,7 +121,6 @@
           <p class="intro">I study <strong>multimodal learning</strong>, <strong>reinforcement learning</strong>, and <strong>robotics</strong>, advised by <a href="https://personal.utdallas.edu/~fxc190007/">Prof. Feng Chen</a>.</p>
           <div class="actions">
             <a class="button" href="mailto:jiayusong16@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg>Get in touch</a>
-            <a class="text-link" href="{{ '/_pages/cv_sjy.pdf' | relative_url }}">Curriculum vitae <span aria-hidden="true">↗</span></a>
           </div>
         </div>
         <figure class="portrait">
@@ -162,24 +143,8 @@
           <ul class="interests" aria-label="Research interests"><li>Multimodal learning</li><li>Reinforcement learning</li><li>Robotics</li></ul>
         </div>
       </section>
-      <section id="research" class="content-section" aria-labelledby="research-heading">
-        <h2 id="research-heading"><span class="section-index">02 / RESEARCH</span>Selected publications</h2>
-        <div>
-          <div class="section-top"><p>Cross-modal retrieval &amp; representation learning</p><a class="text-link" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">↗</span></a></div>
-          <ol class="publications">
-            {% assign selected_publications = site.publications | sort: 'date' | reverse %}
-            {% for paper in selected_publications limit:3 %}
-            <li class="publication">
-              <p class="paper-meta">{{ paper.date | date: "%Y" }}</p>
-              <h3><a href="{{ paper.url | relative_url }}">{{ paper.title | escape }}</a></h3>
-              <p class="venue">{{ paper.venue | escape }}</p>
-            </li>
-            {% endfor %}
-          </ol>
-        </div>
-      </section>
       <section id="background" class="content-section" aria-labelledby="background-heading">
-        <h2 id="background-heading"><span class="section-index">03 / BACKGROUND</span>Along the way</h2>
+        <h2 id="background-heading"><span class="section-index">02 / BACKGROUND</span>Along the way</h2>
         <ol class="timeline">
           <li><span class="period">Current</span><div><h3>UT Dallas</h3><p>Ph.D. student · Advisor: <a href="https://personal.utdallas.edu/~fxc190007/">Prof. Feng Chen</a></p></div></li>
           <li><span class="period">2025 — 2026</span><div><h3>Eastern Institute for Advanced Study</h3><p>Research Assistant · Robot Learning and Control Lab</p></div></li>
@@ -187,10 +152,6 @@
           <li><time datetime="2021">2021</time><div><h3>Central South University</h3><p>B.S. · School of Computer Science and Engineering</p></div></li>
         </ol>
       </section>
-      <div class="bottom-links">
-        <a href="{{ '/talks/' | relative_url }}"><div>Talks &amp; presentations<span>Conference presentations and research talks.</span></div><span aria-hidden="true">↗</span></a>
-        <a href="{{ '/portfolio/' | relative_url }}"><div>Beyond research<span>Photography. A few moments worth keeping.</span></div><span aria-hidden="true">↗</span></a>
-      </div>
     </div>
   </main>
   <footer><div class="wrap footer-inner"><p>© {{ 'now' | date: '%Y' }} Jiayu Song</p><a href="#top">Back to top ↑</a></div></footer>
