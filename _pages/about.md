@@ -1,16 +1,15 @@
 ---
 permalink: /
-title: ""
-author_profile: true
+layout: profile
+title: "Jiayu Song"
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# Hi~ Welcome👋
+I am a **Ph.D. student at UT Dallas**, advised by [Prof. Feng Chen](https://personal.utdallas.edu/~fxc190007/). My research interests span multimodal learning, reinforcement learning, and robotics.
 
-I am currently a Ph.D student at UT Dallas, advised by [Prof.Feng Chen](https://personal.utdallas.edu/~fxc190007/). From Feb.2025 to Feb.2026, I was a research assistant of Robot Learning and Control Lab at Eastern Institute for Advanced Study, advised by [Prof.Xiaocong Lee](https://sites.google.com/view/xiaocong-li/about) *(Associate, Harvard <img src="../images/Harvard_logo.png" alt="school logo" width=25> & Adjunct Assistant Professor, National University of Singapore <img src="../images/nus_logo.png" alt="school logo" width=40>)*. Previously, I obtained my B.S. and M.S degree from School of Computer Science and Engineering, Central South University <img src="../images/csu.png" alt="school logo" width=25>, advised by [Prof. Shichao Zhang](http://zhangdmlab.com/zsc/) *(Distinguished Expert for "the Thousand Talents Plan")* in Multimedia Lab. My research interests include multimodal learning, reinforcement learning and robotics.
- 
-You can find my CV here: [Jiayu's Curriculum Vitae](../_pages/cv_sjy.pdf).
- 
-[Email](mailto:jiayusong16@gmail.com) / [Github](https://github.com/Mario0716) / [Linkedin](https://www.linkedin.com/in/jiayusong1999) / [Google Scholar](https://scholar.google.com.hk/citations?user=4qXmEAQAAAAJ&hl=zh-CN)
+From February 2025 to February 2026, I was a research assistant in the **Robot Learning and Control Lab** at the Eastern Institute for Advanced Study, advised by [Prof. Xiaocong Lee](https://sites.google.com/view/xiaocong-li/about).
+
+Previously, I received my **B.S. (2021) and M.S. (2024)** from the School of Computer Science and Engineering at Central South University, where I worked in the Multimedia Lab under the supervision of [Prof. Shichao Zhang](http://zhangdmlab.com/zsc/).
