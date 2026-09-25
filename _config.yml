@@ -11,10 +11,10 @@ locale                   : "en-US"
 title                    : "Jiayu Song"
 title_separator          : "-"
 name                     : &name "Jiayu Song"
-description              : &description "Master in Central South University"
+description              : &description "Ph.D. student at UT Dallas researching multimodal learning, reinforcement learning, and robotics."
 url                      : https://mario0716.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "Mario0716/mario0716.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,9 +24,9 @@ author:
   avatar           : "sjy.jpg"
   name             : "Jiayu Song"
   pronouns         :  #
-  bio              : "DS BS & CS MS in CSU"
-  location         : "Ningbo, Zhejiang"
-  employer         : "Eastern Institute for Advanced Study"
+  bio              : "Ph.D. student at UT Dallas"
+  location         :
+  employer         : "The University of Texas at Dallas"
   uri              : 
   email            : "jiayusong16@gmail.com" 
 
